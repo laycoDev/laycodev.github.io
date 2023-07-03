@@ -10,6 +10,7 @@
 .navbar {
 	display: flex;
 	padding-left: 0.8rem;
+	padding-right: 0.2rem;
 }
 
 .navbar>a {
@@ -26,7 +27,9 @@
 }
 
 #navbar-inner {
-	justify-content: flex-end;
+	width: 100%;
+	flex-direction: row;
+	justify-content: end;
 }
 
 .main {
